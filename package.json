@@ -1,0 +1,19 @@
+{
+    "name": "nodejs-open",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cron": "^1.8.2",
+        "express": "^4.17.1",
+        "node-powershell": "^4.0.0",
+        "nodemon": "^2.0.5",
+        "open": "^7.3.0"
+    }
+}
